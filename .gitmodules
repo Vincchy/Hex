@@ -1,0 +1,6 @@
+[submodule "Hex/vendor/GLFW"]
+	path = Hex/vendor/GLFW
+	url = https://github.com/glfw/glfw.git
+[submodule "Hex/vendor/spdlog"]
+	path = Hex/vendor/spdlog
+	url = https://github.com/gabime/spdlog

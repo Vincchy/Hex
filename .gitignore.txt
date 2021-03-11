@@ -1,10 +1,11 @@
-#FILES
-*.sln
-*.vcxproj
-*.vcxproj.filters
-*.vcxproj.user
+#Visual Studio files
+.vs/
 
-#FOLDERS
+**.sln
+**.vcxproj
+**.vcxproj.filters
+**.vcxproj.user
+
+#Binaries
 /bin
-/bin-int
-*.vs
+bin-int/

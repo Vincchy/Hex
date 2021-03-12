@@ -1,8 +1,10 @@
 #include <Hex.h>
+#include <iostream>
 
 class SandboxApplication : public Hex::Application
 {
 public:
+
 	SandboxApplication()
 	{
 
@@ -14,10 +16,7 @@ public:
 	}
 };
 
-int main()
+Hex::Application* CreateApplication()
 {
-	SandboxApplication* app = new SandboxApplication();
-	app->Run();
-
-	return 0;
+	return new SandboxApplication();
 }

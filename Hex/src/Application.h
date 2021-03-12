@@ -8,13 +8,14 @@ namespace Hex {
 	public:
 		Application();
 		virtual ~Application();
-
-		void Run();
+		virtual void Run();
 		bool Init();
 
 	private:
 		bool m_Running;
 	};
 
+	// To be defined in client
+	Application* CreateApplication();
 }
 

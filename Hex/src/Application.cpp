@@ -14,10 +14,6 @@ namespace Hex {
 
 	void Application::Run()
 	{
-		while (true)
-		{
-
-		}
 	}
 
 	bool Application::Init()

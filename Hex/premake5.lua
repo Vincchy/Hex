@@ -15,6 +15,11 @@ project "Hex"
 		"src/**.cpp"
 	}
 
+	includedirs {
+		"vendor/spdlog/include",
+		"src"
+	}
+
 	filter "system:windows"
 		systemversion "latest"
 		cppdialect "C++17"

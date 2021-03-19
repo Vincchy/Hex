@@ -1,8 +1,8 @@
 #pragma once
 
 /* FOR USE BY CLIENT APPLICATIONS */
-#include "src/Application.h"
+#include "src/Core/Application.h"
 
 // -------ENTRY POINT-------
-#include "src/EntryPoint.h"
+#include "src/Core/EntryPoint.h"
 // -------------------------

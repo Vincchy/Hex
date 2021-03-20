@@ -1,0 +1,3 @@
+[submodule "Hex/vendor/spdlog"]
+	path = Hex/vendor/spdlog
+	url = https://github.com/gabime/spdlog.git

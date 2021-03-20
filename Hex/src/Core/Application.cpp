@@ -1,5 +1,5 @@
 #include "Application.h"
-
+#include "Log.h"
 
 namespace Hex {
 
@@ -18,6 +18,7 @@ namespace Hex {
 
 	bool Application::Init()
 	{
+		HEX_CORE_INFO("Initialized application.");
 		return true;
 	}
 

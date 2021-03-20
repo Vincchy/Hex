@@ -6,8 +6,8 @@ extern Hex::Application* CreateApplication();
 
 int main(int argc, char** argv)
 {
-	Hex::Application* app = CreateApplication();
 	Hex::Log::Init();
+	Hex::Application* app = CreateApplication();
 
 	while (true)
 		app->Run();

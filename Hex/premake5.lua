@@ -9,8 +9,8 @@ project "Hex"
 
 	-- adds files to the project
 	files {
-		"**.h",
-		"**.cpp",
+		"*.h",
+		"*.cpp",
 		"src/**.h",
 		"src/**.cpp"
 	}

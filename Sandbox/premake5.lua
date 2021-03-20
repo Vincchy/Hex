@@ -13,7 +13,8 @@ project "Sandbox"
 	}
 
 	includedirs {
-		"../Hex"
+		"../Hex",
+		"../Hex/vendor/spdlog/include"
 	}
 
 	-- sets references

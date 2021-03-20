@@ -8,5 +8,10 @@ workspace "Hex"
 
 	startproject "Sandbox"
 
+	includedirs {
+		"Hex/src/Core",
+		"Hex"
+	}
+
 	include "Sandbox"
 	include "Hex"
